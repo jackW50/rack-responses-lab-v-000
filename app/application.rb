@@ -11,7 +11,7 @@ class Application
     #  resp.write "Good Afternoon!"
     #end 
     
-    resp.write time < 12 ? "Good Morning!" : "Good Afternoon!"
+    resp.write time > 12 ? "Good Morning!" : "Good Afternoon!"
     resp.finish
   end 
 end 
